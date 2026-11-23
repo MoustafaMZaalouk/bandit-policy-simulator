@@ -1,0 +1,657 @@
+{
+  "arm_probabilities": [
+    0.15,
+    0.22,
+    0.3,
+    0.38
+  ],
+  "policies": {
+    "epsilon_greedy": {
+      "mean_pseudo_regret": 67.68849999999992,
+      "mean_reward": 1077.2,
+      "per_seed": [
+        {
+          "arm_counts": [
+            80,
+            98,
+            58,
+            2764
+          ],
+          "pseudo_regret": 38.719999999999885,
+          "reward": 1118
+        },
+        {
+          "arm_counts": [
+            183,
+            88,
+            72,
+            2657
+          ],
+          "pseudo_regret": 61.929999999999495,
+          "reward": 1048
+        },
+        {
+          "arm_counts": [
+            113,
+            89,
+            93,
+            2705
+          ],
+          "pseudo_regret": 47.669999999999696,
+          "reward": 1089
+        },
+        {
+          "arm_counts": [
+            304,
+            79,
+            64,
+            2553
+          ],
+          "pseudo_regret": 87.67999999999958,
+          "reward": 1054
+        },
+        {
+          "arm_counts": [
+            98,
+            81,
+            77,
+            2744
+          ],
+          "pseudo_regret": 41.65999999999982,
+          "reward": 1077
+        },
+        {
+          "arm_counts": [
+            80,
+            72,
+            75,
+            2773
+          ],
+          "pseudo_regret": 35.919999999999916,
+          "reward": 1133
+        },
+        {
+          "arm_counts": [
+            79,
+            69,
+            1185,
+            1667
+          ],
+          "pseudo_regret": 124.00999999999827,
+          "reward": 1022
+        },
+        {
+          "arm_counts": [
+            72,
+            68,
+            242,
+            2618
+          ],
+          "pseudo_regret": 46.79999999999967,
+          "reward": 1142
+        },
+        {
+          "arm_counts": [
+            86,
+            60,
+            117,
+            2737
+          ],
+          "pseudo_regret": 38.73999999999987,
+          "reward": 1056
+        },
+        {
+          "arm_counts": [
+            142,
+            85,
+            78,
+            2695
+          ],
+          "pseudo_regret": 52.49999999999963,
+          "reward": 1102
+        },
+        {
+          "arm_counts": [
+            79,
+            101,
+            106,
+            2714
+          ],
+          "pseudo_regret": 42.80999999999978,
+          "reward": 1120
+        },
+        {
+          "arm_counts": [
+            315,
+            161,
+            75,
+            2449
+          ],
+          "pseudo_regret": 104.2099999999996,
+          "reward": 1062
+        },
+        {
+          "arm_counts": [
+            84,
+            84,
+            267,
+            2565
+          ],
+          "pseudo_regret": 54.11999999999943,
+          "reward": 1059
+        },
+        {
+          "arm_counts": [
+            72,
+            80,
+            90,
+            2758
+          ],
+          "pseudo_regret": 36.55999999999991,
+          "reward": 1148
+        },
+        {
+          "arm_counts": [
+            62,
+            117,
+            133,
+            2688
+          ],
+          "pseudo_regret": 43.61999999999976,
+          "reward": 1099
+        },
+        {
+          "arm_counts": [
+            80,
+            344,
+            1623,
+            953
+          ],
+          "pseudo_regret": 203.28000000000694,
+          "reward": 889
+        },
+        {
+          "arm_counts": [
+            89,
+            892,
+            75,
+            1944
+          ],
+          "pseudo_regret": 169.1899999999977,
+          "reward": 952
+        },
+        {
+          "arm_counts": [
+            72,
+            86,
+            104,
+            2738
+          ],
+          "pseudo_regret": 38.63999999999987,
+          "reward": 1105
+        },
+        {
+          "arm_counts": [
+            82,
+            91,
+            88,
+            2739
+          ],
+          "pseudo_regret": 40.459999999999816,
+          "reward": 1162
+        },
+        {
+          "arm_counts": [
+            123,
+            62,
+            88,
+            2727
+          ],
+          "pseudo_regret": 45.24999999999974,
+          "reward": 1107
+        }
+      ],
+      "regret_std": 47.294177039485255,
+      "reward_std": 65.87356310227551
+    },
+    "random": {
+      "mean_pseudo_regret": 352.88950000000466,
+      "mean_reward": 783.55,
+      "per_seed": [
+        {
+          "arm_counts": [
+            719,
+            765,
+            762,
+            754
+          ],
+          "pseudo_regret": 348.73000000000445,
+          "reward": 777
+        },
+        {
+          "arm_counts": [
+            772,
+            723,
+            779,
+            726
+          ],
+          "pseudo_regret": 355.5600000000043,
+          "reward": 767
+        },
+        {
+          "arm_counts": [
+            730,
+            798,
+            732,
+            740
+          ],
+          "pseudo_regret": 354.14000000000556,
+          "reward": 810
+        },
+        {
+          "arm_counts": [
+            747,
+            791,
+            755,
+            707
+          ],
+          "pseudo_regret": 358.77000000000544,
+          "reward": 780
+        },
+        {
+          "arm_counts": [
+            770,
+            734,
+            750,
+            746
+          ],
+          "pseudo_regret": 354.5400000000044,
+          "reward": 770
+        },
+        {
+          "arm_counts": [
+            764,
+            715,
+            735,
+            786
+          ],
+          "pseudo_regret": 348.92000000000456,
+          "reward": 792
+        },
+        {
+          "arm_counts": [
+            775,
+            746,
+            740,
+            739
+          ],
+          "pseudo_regret": 356.810000000006,
+          "reward": 749
+        },
+        {
+          "arm_counts": [
+            682,
+            768,
+            789,
+            761
+          ],
+          "pseudo_regret": 342.86000000000405,
+          "reward": 783
+        },
+        {
+          "arm_counts": [
+            761,
+            770,
+            707,
+            762
+          ],
+          "pseudo_regret": 354.7900000000047,
+          "reward": 757
+        },
+        {
+          "arm_counts": [
+            787,
+            728,
+            738,
+            747
+          ],
+          "pseudo_regret": 356.53000000000515,
+          "reward": 774
+        },
+        {
+          "arm_counts": [
+            773,
+            790,
+            725,
+            712
+          ],
+          "pseudo_regret": 362.19000000000494,
+          "reward": 787
+        },
+        {
+          "arm_counts": [
+            741,
+            725,
+            785,
+            749
+          ],
+          "pseudo_regret": 349.23000000000434,
+          "reward": 847
+        },
+        {
+          "arm_counts": [
+            733,
+            763,
+            756,
+            748
+          ],
+          "pseudo_regret": 351.1500000000045,
+          "reward": 780
+        },
+        {
+          "arm_counts": [
+            766,
+            752,
+            741,
+            741
+          ],
+          "pseudo_regret": 355.7800000000044,
+          "reward": 772
+        },
+        {
+          "arm_counts": [
+            766,
+            745,
+            761,
+            728
+          ],
+          "pseudo_regret": 356.26000000000465,
+          "reward": 807
+        },
+        {
+          "arm_counts": [
+            726,
+            744,
+            729,
+            801
+          ],
+          "pseudo_regret": 344.34000000000316,
+          "reward": 805
+        },
+        {
+          "arm_counts": [
+            727,
+            739,
+            773,
+            761
+          ],
+          "pseudo_regret": 347.29000000000406,
+          "reward": 764
+        },
+        {
+          "arm_counts": [
+            745,
+            721,
+            740,
+            794
+          ],
+          "pseudo_regret": 345.9100000000046,
+          "reward": 777
+        },
+        {
+          "arm_counts": [
+            772,
+            773,
+            736,
+            719
+          ],
+          "pseudo_regret": 360.1200000000057,
+          "reward": 770
+        },
+        {
+          "arm_counts": [
+            781,
+            714,
+            750,
+            755
+          ],
+          "pseudo_regret": 353.870000000005,
+          "reward": 803
+        }
+      ],
+      "regret_std": 5.335679777143251,
+      "reward_std": 22.30759842225113
+    },
+    "ucb1": {
+      "mean_pseudo_regret": 121.20799999999898,
+      "mean_reward": 1024.65,
+      "per_seed": [
+        {
+          "arm_counts": [
+            223,
+            235,
+            648,
+            1894
+          ],
+          "pseudo_regret": 140.72999999999948,
+          "reward": 977
+        },
+        {
+          "arm_counts": [
+            140,
+            292,
+            711,
+            1857
+          ],
+          "pseudo_regret": 135.79999999999927,
+          "reward": 989
+        },
+        {
+          "arm_counts": [
+            182,
+            260,
+            500,
+            2058
+          ],
+          "pseudo_regret": 123.45999999999863,
+          "reward": 1015
+        },
+        {
+          "arm_counts": [
+            194,
+            231,
+            690,
+            1885
+          ],
+          "pseudo_regret": 136.77999999999938,
+          "reward": 979
+        },
+        {
+          "arm_counts": [
+            141,
+            242,
+            678,
+            1939
+          ],
+          "pseudo_regret": 125.38999999999847,
+          "reward": 1012
+        },
+        {
+          "arm_counts": [
+            156,
+            218,
+            509,
+            2117
+          ],
+          "pseudo_regret": 111.47999999999885,
+          "reward": 1024
+        },
+        {
+          "arm_counts": [
+            174,
+            359,
+            710,
+            1757
+          ],
+          "pseudo_regret": 154.25999999999982,
+          "reward": 997
+        },
+        {
+          "arm_counts": [
+            89,
+            198,
+            422,
+            2291
+          ],
+          "pseudo_regret": 85.90999999999887,
+          "reward": 1107
+        },
+        {
+          "arm_counts": [
+            173,
+            363,
+            476,
+            1988
+          ],
+          "pseudo_regret": 135.94999999999933,
+          "reward": 978
+        },
+        {
+          "arm_counts": [
+            134,
+            276,
+            436,
+            2154
+          ],
+          "pseudo_regret": 109.85999999999875,
+          "reward": 1069
+        },
+        {
+          "arm_counts": [
+            104,
+            198,
+            374,
+            2324
+          ],
+          "pseudo_regret": 85.5199999999991,
+          "reward": 1049
+        },
+        {
+          "arm_counts": [
+            151,
+            203,
+            559,
+            2087
+          ],
+          "pseudo_regret": 111.92999999999881,
+          "reward": 1054
+        },
+        {
+          "arm_counts": [
+            160,
+            292,
+            552,
+            1996
+          ],
+          "pseudo_regret": 127.67999999999851,
+          "reward": 989
+        },
+        {
+          "arm_counts": [
+            205,
+            173,
+            444,
+            2178
+          ],
+          "pseudo_regret": 110.3499999999991,
+          "reward": 1088
+        },
+        {
+          "arm_counts": [
+            158,
+            227,
+            666,
+            1949
+          ],
+          "pseudo_regret": 125.9399999999984,
+          "reward": 1004
+        },
+        {
+          "arm_counts": [
+            130,
+            247,
+            805,
+            1818
+          ],
+          "pseudo_regret": 133.8199999999992,
+          "reward": 1006
+        },
+        {
+          "arm_counts": [
+            140,
+            336,
+            472,
+            2052
+          ],
+          "pseudo_regret": 123.71999999999854,
+          "reward": 993
+        },
+        {
+          "arm_counts": [
+            190,
+            266,
+            533,
+            2011
+          ],
+          "pseudo_regret": 128.8999999999988,
+          "reward": 1001
+        },
+        {
+          "arm_counts": [
+            149,
+            220,
+            403,
+            2228
+          ],
+          "pseudo_regret": 101.70999999999891,
+          "reward": 1116
+        },
+        {
+          "arm_counts": [
+            159,
+            311,
+            358,
+            2172
+          ],
+          "pseudo_regret": 114.96999999999889,
+          "reward": 1046
+        }
+      ],
+      "regret_std": 17.507468361275365,
+      "reward_std": 43.19024621857408
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps_per_seed": 3000
+}
