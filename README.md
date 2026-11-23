@@ -26,19 +26,19 @@ These values are generated from `results.json`, not estimated or copied. Rerun t
 
 | Measure | Local result |
 | --- | ---: |
-|  / policies / epsilon greedy / mean pseudo regret | 67.688500 |
-|  / policies / epsilon greedy / mean reward | 1077.200000 |
-|  / policies / epsilon greedy / regret std | 47.294177 |
-|  / policies / epsilon greedy / reward std | 65.873563 |
-|  / policies / random / mean pseudo regret | 352.889500 |
-|  / policies / random / mean reward | 783.550000 |
-|  / policies / random / regret std | 5.335680 |
-|  / policies / random / reward std | 22.307598 |
-|  / policies / ucb1 / mean pseudo regret | 121.208000 |
-|  / policies / ucb1 / mean reward | 1024.650000 |
-|  / policies / ucb1 / regret std | 17.507468 |
-|  / policies / ucb1 / reward std | 43.190246 |
-|  / steps per seed | 3000 |
+| Epsilon greedy: mean pseudo regret | 67.688500 |
+| Epsilon greedy: mean reward | 1077.200000 |
+| Epsilon greedy: regret standard deviation | 47.294177 |
+| Epsilon greedy: reward standard deviation | 65.873563 |
+| Random: mean pseudo regret | 352.889500 |
+| Random: mean reward | 783.550000 |
+| Random: regret standard deviation | 5.335680 |
+| Random: reward standard deviation | 22.307598 |
+| UCB1: mean pseudo regret | 121.208000 |
+| UCB1: mean reward | 1024.650000 |
+| UCB1: regret standard deviation | 17.507468 |
+| UCB1: reward standard deviation | 43.190246 |
+| Steps per seed | 3000 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
