@@ -1,5 +1,9 @@
 # Bandit Policy Simulator
 
+[![CI](https://github.com/MoustafaMZaalouk/bandit-policy-simulator/workflows/Reproducible%20project%20checks/badge.svg)](https://github.com/MoustafaMZaalouk/bandit-policy-simulator/blob/main/.github/workflows/checks.yml)
+
+*Live workflow status, not a production-readiness or model-quality rating.*
+
 Compare random, epsilon-greedy and UCB1 policies across repeated seeded Bernoulli simulations.
 
 A small educational project prepared with AI assistance for Moustafa Zaalouk's portfolio. This is new demonstration code, not a claim about past employment, research, clients or production deployment. It does not reuse another person's project under a different name.
